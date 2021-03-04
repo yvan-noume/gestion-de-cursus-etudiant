@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="5dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".vue.DefinitionCreerFragment"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/titre_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Création d'un cursus"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votre semestre de TN09"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_marginTop="5dp"/>
+
+        <RadioGroup
+            android:id="@+id/tn09_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/tn09_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semestre 2" />
+            <RadioButton
+                android:id="@+id/tn09_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semestre 3" />
+
+            <RadioButton
+                android:id="@+id/tn09_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semestre 4" />
+
+            <RadioButton
+                android:id="@+id/tn09_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semestre 5"
+                android:layout_marginStart="-305dp"
+                android:layout_marginTop="40dp"/>
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votre semestre de TN10"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <RadioGroup
+            android:id="@+id/tn10_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/tn10_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semestre 6"
+                android:checked="true"/>
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Votre semestre à l'étranger"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <RadioGroup
+            android:id="@+id/se_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/se_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semestre 1" />
+            <RadioButton
+                android:id="@+id/se_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semestre 2" />
+            <RadioButton
+                android:id="@+id/se_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semestre 3" />
+
+            <RadioButton
+                android:id="@+id/se_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semestre 4" />
+
+            <RadioButton
+                android:id="@+id/se_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semestre 5" />
+
+            <RadioButton
+                android:id="@+id/se_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="semestre 6" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allez-vous faire le bullats?"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/npml_oui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="oui"
+                android:checked="true"/>
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_marginTop="5dp"/>
+
+
+        <Button
+            android:id="@+id/valider_def"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>

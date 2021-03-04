@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/regle_etude"
+        android:orderInCategory="10"
+        android:title="reglement étude"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/modifier_cursus"
+        android:orderInCategory="10"
+        android:title="Modifier le cursus"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/dupliquer_cursus"
+        android:orderInCategory="10"
+        android:title="Dupliquer le cursus"
+        app:showAsAction="never"/>
+</menu>

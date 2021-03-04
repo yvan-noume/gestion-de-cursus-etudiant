@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_accueil"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Accueil"/>
+    <item
+        android:id="@+id/nav_créer"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:title="Créer Cursus"/>
+    <item
+        android:id="@+id/nav_liste"
+        android:icon="@drawable/ic_baseline_article_24"
+        android:title="Liste Cursus"/>
+    <item
+        android:id="@+id/nav_propos"
+        android:icon="@drawable/ic_baseline_report_24"
+        android:title="A propos"/>
+
+</menu>

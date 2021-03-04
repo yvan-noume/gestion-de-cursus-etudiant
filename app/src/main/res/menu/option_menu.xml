@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/nouveau_module"
+        android:orderInCategory="10"
+        android:title="Nouveau module"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/liste_module"
+        android:orderInCategory="10"
+        android:title="Liste des modules"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/ajout_auto"
+        android:orderInCategory="10"
+        android:title="module automatique"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/cursus_auto"
+        android:orderInCategory="10"
+        android:title="Cursus automatique"
+        app:showAsAction="never"/>
+</menu>

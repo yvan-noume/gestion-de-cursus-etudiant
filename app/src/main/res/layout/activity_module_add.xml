@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vue.ModuleAddActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un module"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sigle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:hint="sigle" />
+
+    <TextView
+        android:id="@+id/categorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapCharacters"
+        android:text="categorie"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/categorie_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/CS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CS" />
+        <RadioButton
+            android:id="@+id/tm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TM" />
+        <RadioButton
+            android:id="@+id/ec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EC" />
+        <RadioButton
+            android:id="@+id/he"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HE" />
+        <RadioButton
+            android:id="@+id/ct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CT" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/parcours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapCharacters"
+        android:text="parcours"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/parcours_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/TCBR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TCBR" />
+        <RadioButton
+            android:id="@+id/FIL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIL" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="credits" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_gravity="center" />
+</LinearLayout>
